@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "title": "Portfolio Personal",
+      "description": "Un portfolio moderno hecho con React, donde muestro mis habilidades y proyectos destacados.",
+      "image": "https://via.placeholder.com/150/0000FF/808080?text=Portfolio+1",
+      "link": "https://github.com/tuusuario/portfolio"
+    },
+    {
+      "id": "2",
+      "title": "Tienda en Línea",
+      "description": "Una tienda online con carrito de compras y procesamiento de pagos, construida con React y Node.js.",
+      "image": "https://via.placeholder.com/150/FF0000/FFFFFF?text=Tienda+2",
+      "link": "https://github.com/tuusuario/tienda-en-linea"
+    },
+    {
+      "id": "3",
+      "title": "Blog Personal",
+      "description": "Un blog personal creado con Gatsby y GraphQL, donde comparto artículos sobre desarrollo web.",
+      "image": "https://via.placeholder.com/150/00FF00/000000?text=Blog+3",
+      "link": "https://github.com/tuusuario/blog"
+    },
+    {
+      "id": "4",
+      "title": "App de Tareas",
+      "description": "Aplicación para gestionar tareas diarias, con funcionalidades como añadir, editar y eliminar tareas.",
+      "image": "https://via.placeholder.com/150/FFFF00/000000?text=App+de+Tareas+4",
+      "link": "https://github.com/tuusuario/app-de-tareas"
+    },
+    {
+      "id": "5",
+      "title": "Juego de Memoria",
+      "description": "Un divertido juego de memoria hecho con JavaScript y React, donde los jugadores deben encontrar pares de cartas iguales.",
+      "image": "https://via.placeholder.com/150/FF00FF/FFFFFF?text=Juego+5",
+      "link": "https://github.com/tuusuario/juego-de-memoria"
+    }
+  ]
+  
