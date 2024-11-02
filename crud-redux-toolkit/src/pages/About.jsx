@@ -7,6 +7,10 @@ const About = () => {
                 para dispositivos móviles y web. Actualmente, trabajo como desarrollador fullstack en una empresa de
                 tecnología.
             </p>
+            <div className="container mx-auto p-8">
+                <h1 className="text-3xl font-bold text-center">Bienvenido a Mi Portafolio</h1>
+                <p className="text-center mt-4">Explora mis proyectos y conoce más sobre mí.</p>
+            </div>
         </div>
     );
 };  
