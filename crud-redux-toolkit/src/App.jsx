@@ -5,13 +5,14 @@ import Login from "./components/Login";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
+      <div className="main-container flex flex-col min-h-screen">
         <Header /> {/* Header visible en todas las páginas */}
-        <main className="flex-grow">
+        <main className="main flex-grow">
           <Routes>
             {/* Ruta públicas */}
             <Route path="/login" element={<Login />} />
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/Projects" element={<Projects />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

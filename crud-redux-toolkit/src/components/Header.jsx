@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className="bg-blue-600 text-white p-4 shadow">
+        <header className="header bg-blue-600 text-white p-4 shadow">
             <nav className="container mx-auto flex justify-around">
                 <NavLink 
                     to="/" 
