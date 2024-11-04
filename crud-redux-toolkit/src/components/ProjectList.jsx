@@ -16,14 +16,8 @@ const ProjectList = () => {
             <h2 className='text-2xl font-semibold'>{project.name}</h2>
             <p>{project.description}</p>
             <p>{project.technologies}</p>
-            <p>{project.github}</p>
             <img src={project.image} alt='imagen' />
-            {project.name}
-            {project.description}
-            {project.technologies}
-            {project.github}
-            {project.image}
-           {/*  <button onClick={() => dispatch(deleteProject(project.id))}>Eliminar</button> */}
+            {/*  <button onClick={() => dispatch(deleteProject(project.id))}>Eliminar</button> */}
           </li>
         ))}
       </ul>

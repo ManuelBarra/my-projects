@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
               </Route>
             </Routes>
           </main>
+          <Footer />
         </div>
       </AuthProvider>
     </Router>
