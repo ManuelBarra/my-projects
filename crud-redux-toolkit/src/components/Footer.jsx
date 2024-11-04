@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="py-10 text-gray-300 bg-gray-900">
         <div className="container grid grid-cols-1 gap-8 px-4 mx-auto md:grid-cols-3">
             <div>
-                <h2 className="mb-4 text-xl font-semibold text-white">Contacto</h2>
+                <h2 className="mb-4 text-xl font-semibold text-white">Contacto Hola</h2>
                 <p>
                     <a href="mailto:tu-correo@ejemplo.com" className="hover:text-white">tu-correo@ejemplo.com</a>
                 </p>
