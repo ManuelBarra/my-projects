@@ -1,10 +1,11 @@
 
-import { useSelector, useDispatch } from 'react-redux';
-import { deleteProject } from '../features/projectsSlice';
+
+import { useSelector } from 'react-redux';
+/* import { deleteProject } from '../features/projectsSlice'; */
 
 const ProjectList = () => {
   const projects = useSelector(state => state.projects);
-  const dispatch = useDispatch();
+  /* const dispatch = useDispatch(); */ /* Importar dispatch */
 
   return (
     <div>
@@ -12,8 +13,17 @@ const ProjectList = () => {
       <ul>
         {projects.map(project => (
           <li key={project.id}>
+            <h2>{project.name}</h2>
+            <p>{project.description}</p>
+            <p>{project.technologies}</p>
+            <p>{project.github}</p>
+            <img src={project.image} alt='imagen' />
             {project.name}
-            <button onClick={() => dispatch(deleteProject(project.id))}>Eliminar</button>
+            {project.description}
+            {project.technologies}
+            {project.github}
+            {project.image}
+           {/*  <button onClick={() => dispatch(deleteProject(project.id))}>Eliminar</button> */}
           </li>
         ))}
       </ul>

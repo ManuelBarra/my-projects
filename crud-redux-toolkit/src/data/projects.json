@@ -1,4 +1,74 @@
 [
-    { "id": 1, "name": "Proyecto 1" },
-    { "id": 2, "name": "Proyecto 2" }
+    { 
+      "id": 1,
+      "name": "Proyecto 1",
+      "description": "Descripción del proyecto 1",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 2,
+      "name": "Proyecto 2",
+      "description": "Descripción del proyecto 2",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 3,
+      "name": "Proyecto 3",
+      "description": "Descripción del proyecto 3",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 4,
+      "name": "Proyecto 4",
+      "description": "Descripción del proyecto 4",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 5,
+      "name": "Proyecto 5",
+      "description": "Descripción del proyecto 5",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 6,
+      "name": "Proyecto 6",
+      "description": "Descripción del proyecto 6",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 7,
+      "name": "Proyecto 7",
+      "description": "Descripción del proyecto 7",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 8,
+      "name": "Proyecto 8",
+      "description": "Descripción del proyecto 8",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 9,
+      "name": "Proyecto 9",
+      "description": "Descripción del proyecto 9",
+      "technologies": ["React", "Redux", "Node.js"],
+      "github": "https://github.com/username/repo",      
+      "image": "https://picsum.photos/200/300"
+    }
   ]
