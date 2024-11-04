@@ -1,9 +1,9 @@
 const CreateProject = () => {
-    return (
-        <div>
-            <h1>Crear Proyecto</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1>Crear Proyecto</h1>
+    </div>
+  );
 };
 
-export default CreateProject;   
+export default CreateProject;

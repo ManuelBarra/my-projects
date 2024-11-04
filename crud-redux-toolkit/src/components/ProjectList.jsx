@@ -1,3 +1,4 @@
+
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteProject } from '../features/projectsSlice';
 
@@ -19,5 +20,5 @@ const ProjectList = () => {
     </div>
   );
 };
-
+  
 export default ProjectList;
