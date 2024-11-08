@@ -11,9 +11,16 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const [darkMode, setDarkMode] = useState('dark-mode');
+
+    const toggleTheme = () => {
+        setDarkMode(!darkMode);
+        document.documentElement.classList.toggle('dark-mode', darkMode);
+    };
+
     return (
-        <header className="flex items-center justify-between p-4 text-white bg-blue-600">
-            <div className='container flex items-center justify-between mx-auto text-white bg-blue-600'>
+        <header className="flex items-center justify-between p-4 ">
+            <div className='container flex items-center justify-between mx-auto '>
                 {/* Logo */}
                 <NavLink to="/" className="flex items-center text-lg font-bold">
                     <HomeIcon className="w-6 h-6 mr-2 text-white" />
@@ -63,7 +70,11 @@ const Header = () => {
                             Login
                         </NavLink>
                     )}
+                    <button onClick={toggleTheme}>
+                        {darkMode ? 'Light Mode' : 'Dark Mode'}
+                    </button>
                 </nav>
+                
             </div>
         </header>
     );
