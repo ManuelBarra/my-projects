@@ -17,7 +17,6 @@ int ft_str_is_lowercase(char *str)
 		}
 	
 	}
-	
 		
 	if(str[0] == '\0')
 	{

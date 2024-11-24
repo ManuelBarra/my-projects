@@ -12,6 +12,7 @@ int ft_str_is_alpha(char *str)
 		}else{
 			return(0);
 		}
+		i++;
 	}
 	
 	if(str[0] == '\0')
@@ -22,7 +23,7 @@ int ft_str_is_alpha(char *str)
 
 int	main()
 {
-	char src[] = "222a";
+	char src[] = "aaaa";
 	
 	int result;
 	
