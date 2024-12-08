@@ -3,7 +3,7 @@ import ProjectList from "../components/ProjectList"
 
 const Dashboard = () => {
   return (
-      <div className="flex h-screen overflow-hidden">
+      <div className="flex ">
         <div className="aside-container">
           <h1>Dashboard</h1>
           <div className="aside-content">
