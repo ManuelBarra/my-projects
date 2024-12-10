@@ -12,7 +12,7 @@ const ProjectList = () => {
       <h2>Proyectos</h2>
       <ul className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (
-          <li className="p-6 bg-white rounded-lg shadow-lg" key={project.id}>
+          <li className="p-6 bg-white rounded-lg shadow-lg" key={project.id} id={project.id}>
             <h2 className="text-2xl font-semibold">{project.name}</h2>
             <p>{project.description}</p>
             <p>{project.technologies}</p>

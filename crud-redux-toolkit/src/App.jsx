@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Router>
       <AuthProvider>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col">
           <Header /> {/* Header visible en todas las páginas */}
           <main className="flex-grow">
             <Routes>

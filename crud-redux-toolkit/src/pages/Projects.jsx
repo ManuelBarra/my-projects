@@ -10,7 +10,7 @@ const Projects = () => {
       <h1>Proyectos</h1>
       <ul className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
         {projects.map((project) => (
-          <li key={project.id}>
+          <li key={project.id} id={project.id}>
             <Link to={`/projects/${project.id}`}>{project.name}</Link>
             <p>{project.description}</p>
             <p>{project.technologies}</p> 
