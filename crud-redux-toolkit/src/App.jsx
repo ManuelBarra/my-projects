@@ -8,29 +8,35 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
+import Footer from "./components/Footer";
+import ProjectDetail from "./pages/ProjectDetail";
+import EditProject from "./components/EditProject";
 
 const App = () => {
+  
   return (
     <Router>
       <AuthProvider>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col">
           <Header /> {/* Header visible en todas las páginas */}
           <main className="flex-grow">
             <Routes>
               {/* Ruta públicas */}
               <Route path="/" element={<Home />} />
-              <Route path="/Contact" element={<Contact />} />
-              <Route path="/About" element={<About />} />
-              <Route path="/Projects" element={<Projects />} />
-              <Route path="/Login" element={<Login />} />
-              <Route path="/Dashboard" element={<Dashboard />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/:projectId" element={<ProjectDetail />} />
+              <Route path="/login" element={<Login />} />
 
               {/* Rutas privadas */}
               <Route element={<PrivateRoute />}>
-                        <Route path="/dashboard" element={<Dashboard />} />
+                  <Route path="/dashboard" element={<Dashboard />} />
+                  <Route path="/projects/:projectId/edit" element={<EditProject />} />
               </Route>
             </Routes>
           </main>
+          <Footer />
         </div>
       </AuthProvider>
     </Router>

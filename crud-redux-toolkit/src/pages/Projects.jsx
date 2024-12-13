@@ -1,15 +1,25 @@
-import ProjectList from '../components/ProjectList';
+
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
-    return (
-        <div className="container p-8 mx-auto">
-            <h1 className="text-3xl font-bold text-center">Mis Proyectos</h1>
-            <p className="mt-4 text-center">
-                Aquí encontrarás una selección de algunos de mis proyectos destacados.
-            </p>
-            <ProjectList />
-        </div>
-    );
+  const projects = useSelector((state) => state.projects); // Estado global de proyectos
+
+  return (
+    <div>
+      <h1>Proyectos</h1>
+      <ul className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3'>
+        {projects.map((project) => (
+          <li key={project.id} id={project.id}>
+            <Link to={`/projects/${project.id}`}>{project.name}</Link>
+            <p>{project.description}</p>
+            <p>{project.technologies}</p> 
+            <img src={project.image} alt='imagen' />  
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 };
 
 export default Projects;

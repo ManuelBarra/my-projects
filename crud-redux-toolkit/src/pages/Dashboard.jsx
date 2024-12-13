@@ -1,14 +1,32 @@
 import AddProject from "../components/AddPRoject";
-import ProjectList from "../components/ProjectList";
+import ProjectList from "../components/ProjectList"
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold">Bienvenido al Dashboard</h1>
-      <AddProject />
-      <ProjectList />
-    </div>
-  );
-};
+      <div className="flex ">
+        <div className="aside-container">
+          <h1>Dashboard</h1>
+          <div className="aside-content">
+            <div className="aside-item">
+              <h2>Perfil</h2>
+              <p>Name</p>
+            </div>
+          </div>
+        </div>
 
-export default Dashboard;
+        <div className="main-container">
+          <div className="proyect-list">
+            <ProjectList />
+          </div>
+          <div className="add-project">
+            <h2>Agregar Proyecto</h2>   
+            <AddProject />  
+          </div>
+        </div>
+
+          
+         
+      </div>
+    )};
+
+export default Dashboard  
