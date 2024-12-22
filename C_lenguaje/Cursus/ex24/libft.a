@@ -1,0 +1,6 @@
+!<arch>
+libft.a:     ft_strlen.o ft_strcmp.o ft_swap.o ft_putstr.o ft_putchar.o         
+
+    
+
+
