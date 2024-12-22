@@ -12,6 +12,5 @@ int ft_strcmp(char *s1, char *s2)
 				return (res);
 		}
 	}
-	return (res)
+	return (res);
 }
-git add .
